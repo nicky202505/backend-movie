@@ -12,7 +12,7 @@ import uuid
 # Flask 앱 생성
 app = Flask(__name__)
 # CORS 설정 - 프론트엔드에서 오는 요청 허용
-CORS(app, resources={r"/chat": {"origins": ["http://localhost:5000", "http://localhost:3000", "http://localhost:5173", "https://vercel.com/nicoles-projects-4579d544/frontend-movie/DyeUNqBajqDUXKxVY9GehZJhELtp", "https://frontend-movie-eta.vercel.app/"]}})
+CORS(app, resources={r"/chat": {"origins": ["http://localhost:5000", "http://localhost:3000", "http://localhost:5173", "https://frontend-movie-h8mu-avut41nfw-nicoles-projects-4579d544.vercel.app", "https://frontend-movie-h8mu.vercel.app/"]}})
 
 
 
